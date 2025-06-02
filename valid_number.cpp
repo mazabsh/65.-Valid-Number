@@ -23,3 +23,9 @@ public:
        return isnum; 
   }
 };
+int main(){
+    string s ="1.23e+10"; 
+    Solution sol; 
+    cout << boolalpha<< sol.validNumber(s)<<endl; 
+    return 0; 
+}
